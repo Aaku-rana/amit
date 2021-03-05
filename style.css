@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+/* Desktop View */
+@media only screen and (min-width: 768px){
+    .navbar-collapse{
+        margin-left: 40px;
+    }
+    .adspubble_heading_div{
+        margin-top: 100px;
+    }
+    .heading-one{
+        width: 119%;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        color: #0a1f44;
+        font-size: 58px;
+        line-height: 75px;
+        font-weight: 700;
+        letter-spacing: -0.3px;
+        margin-top: 20px;
+    }
+    .Appsuccessor-para{
+        margin-bottom: 18px;
+        font-size: 17px;
+        line-height: 25px;
+        color: #4e5d78;
+        font-weight: 400;
+        width: 110%;
+    }
+    .about-us-shadow{
+        box-shadow: 0 3px 5px 3px rgba(0,0,0,0.08);
+        transition: box-shadow 0.3s ease-in-out;
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-sub-heading{ 
+        margin: 20px auto 25px;
+        color: #0a1f44;
+        font-size: 42px;
+        line-height: 45px;
+        text-align: center;
+        font-weight: 600;
+        padding-top: 15px;
+    }
+    .about-us-img{
+        width: 56%;
+    }
+    #list li{ 
+        margin-left: -29px;
+    } 
+    .publishers-part{
+        margin-top: 70px;
+    }
+    .adspubble-img{
+        width: 80%;
+        margin-left: 100px;
+    }
+    .become-rw{
+        display: flex;
+        max-width: 1000px;
+        margin: 55px auto;
+        -webkit-box-pack: justify;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    .become-first{
+        position: relative;
+        display: flex;
+        width: 32%;
+        min-height: 380px;
+        padding: 15px 20px 20px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+        transition: all 250ms ease;
+    }
+    .about-us-para{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        color: #4e5d78;
+        padding-bottom: 15px;
+        width: 63%;
+    }
+}
+/* End Desktop View */
+
+/* Mobile View */
+@media only screen and (max-width: 768px){
+    .adspubble_heading_div{
+        margin-top: 50px;
+    }
+    .heading-one{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        color: #0a1f44;
+        font-size: 39px;
+        line-height: 49px;
+        font-weight: 700;
+        letter-spacing: -0.3px;
+        margin-top: 20px;
+    }
+    .Appsuccessor-para{
+        margin-bottom: 18px;
+        font-size: 17px;
+        line-height: 25px;
+        color: #4e5d78;
+        font-weight: 400;
+    }
+    .about-us-shadow{
+        box-shadow: 0 3px 5px 3px rgb(0 0 0 / 8%);
+        transition: box-shadow 0.3s ease-in-out;
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .about-sub-heading{ 
+        margin: 20px auto 25px;
+        color: #0a1f44;
+        font-size: 35px;
+        line-height: 45px;
+        text-align: center;
+        font-weight: 600;
+        padding-top: 15px;
+    }
+    .about-us-img{
+        width: 100%;
+    }
+    .advertise-img{
+        width: 100%;
+    }
+    .advertise-heading{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .become-first{
+        position: relative;
+        display: flex;
+        min-height: 380px;
+        padding: 15px 20px 20px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+        transition: all 250ms ease;
+    }
+    .about-us-para{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        color: #4e5d78;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+}
+
+.nav-link{
+    color: #000!important;
+}
+.navbar-collapse{
+    margin-left: 40px;
+}
+
+#collapsibleNavbar{
+    justify-content: space-between!important;
+}
+
+.adspuddle_heading{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+.get-in-touch{
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.about-adspuddle-text{
+    color: #29A9E3;
+    font-weight: 700;
+}
+
+.about-us-shadow:hover{
+    box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
+}
+#list{ 
+    font-size: 18px;
+} 
+
+li{ 
+    list-style: none; 
+    color: #686767;
+    line-height: 1.4;
+} 
+
+#list li::before{ 
+    content: "\00BB"; 
+    color: green;
+    font-size: 30px;
+    padding-right: 3px;
+} 
+.advertiser-sub-heading{
+    margin-bottom: 8px;
+    color: rgba(118, 126, 173, 0.59);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.become-advertiser-heading{
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: auto;
+    color: #0a1f44;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+.become-advertiser-para{
+    color: #4e5d78;
+    font-size: 16px;
+    line-height: 1.55;
+    font-weight: 400;
+}
+.join-btn{
+    min-height: 45px;
+    min-width: 160px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #e9f9f0;
+    color: #29A9E3;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.j-button{
+    padding: 15px 53px;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.become-first-img{
+    width: 55px;
+}
+
+.become-first:hover{
+    box-shadow: 1px 1px 35px 0 rgb(145 158 190 / 16%);
+    /*box-shadow: 0 0 11px rgba(33,33,33,.2); */
+}
